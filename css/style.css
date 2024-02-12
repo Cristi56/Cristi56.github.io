@@ -136,6 +136,8 @@ nav ul li a:hover {
     background-color: #333; /* Set the background color to black */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
+    left: 50%; /* Set the left position to 50% */
+    transform: translateX(-50%); /* Translate the menu to the left by 50% of its own width */
 }
 
 /* Styling for the dropdown links */
