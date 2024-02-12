@@ -101,7 +101,7 @@ footer {
 nav ul li a {
     font-family: 'Arial', sans-serif; /* Replace 'Arial' with the desired font family */
     font-weight: bold; /* Optionally, adjust the font weight */
-    color: rgb(0, 0, 0); /* Set the color to black */
+    color: rgb(152, 7, 7); /* Set the color to black */
 }
 
 /* Prevent the links from changing color after they have been clicked */
@@ -114,7 +114,7 @@ nav ul li a:visited {
 nav ul li a {
     font-family: "Arial", sans-serif; /* Set the font family */
     font-weight: bold; /* Set the font weight */
-    color: #333; /* Set the text color (dark gray) */
+    color: rgb(20, 117, 69); /* Set the text color (dark gray) */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -125,5 +125,5 @@ nav ul li a:visited {
 
 /* Styling for hover effect on menu links */
 nav ul li a:hover {
-    color: #555; /* Set the text color on hover (light gray) */
+    color: rgb(189, 31, 168); /* Set the text color on hover (light gray) */
 }
