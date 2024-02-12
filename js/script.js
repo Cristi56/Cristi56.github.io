@@ -11,3 +11,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+
+    sections.forEach(section => {
+        section.addEventListener("click", scrollToSection);
+    });
+
+    function scrollToSection(e) {
+        e.preventDefault();
+        const targetId = e.target.closest("section").id;
+        const targetSection = document.getElementById(targetId);
+
+        window.scrollTo({
+            top: targetSection.offsetTop,
+            behavior: "smooth"
+        });
+    }
+});
