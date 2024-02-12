@@ -101,6 +101,7 @@ footer {
 nav ul li a {
     font-family: 'Arial', sans-serif; /* Replace 'Arial' with the desired font family */
     font-weight: bold; /* Optionally, adjust the font weight */
+    color: rgb(0, 0, 0); /* Set the color to black */
 }
 
 /* Prevent the links from changing color after they have been clicked */
