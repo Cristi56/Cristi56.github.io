@@ -108,3 +108,22 @@ nav ul li a {
 nav ul li a:visited {
     color: inherit; /* Inherit the color from the parent element */
 }
+
+/* MENU FONT */
+/* Styling for the menu text */
+nav ul li a {
+    font-family: "Arial", sans-serif; /* Set the font family */
+    font-weight: bold; /* Set the font weight */
+    color: #333; /* Set the text color (dark gray) */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling for visited links to prevent color change */
+nav ul li a:visited {
+    color: #333; /* Maintain the text color for visited links */
+}
+
+/* Styling for hover effect on menu links */
+nav ul li a:hover {
+    color: #555; /* Set the text color on hover (light gray) */
+}
