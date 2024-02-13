@@ -154,17 +154,4 @@ body {
 /* Adjust the scrolling speed of the background image */
 
 
-body::after {
-    content: '';
-    background-image: url('background-image.jpg'); /* Same image as body background */
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; Fix the background image */
-    background-size: 110%; /* Adjust the size to make the image slightly larger */
-    opacity: 0.3; /* Adjust the opacity for a subtle effect */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
+
