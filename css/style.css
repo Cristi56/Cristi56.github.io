@@ -115,7 +115,8 @@ nav ul li a:visited {
 
 /* Styling for hover effect on menu links */
 nav ul li a:hover {
-    color: rgb(232, 233, 159); /* Set the text color on hover (light gray) */
+    color: rgb(201, 204, 12); /* Set the text color on hover (light gray) */
+    text-decoration: none; /* Remove underline from links */
 }
 
 /* DROPDOWN MENU */
