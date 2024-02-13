@@ -132,7 +132,7 @@ nav ul li a:hover {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: white; /* Set the text color to white */
+    color: rgb(152, 7, 7); /* Set the text color to white */
 }
 
 /* Styling for the dropdown links on hover */
