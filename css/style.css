@@ -102,6 +102,7 @@ nav ul li a {
     font-family: 'Arial', sans-serif; /* Replace 'Arial' with the desired font family */
     font-weight: bold; /* Optionally, adjust the font weight */
     color: rgb(152, 7, 7); /* Set the color to black */
+    text-decoration: none; /* Remove underline from links */
 }
 
 /* Prevent the links from changing color after they have been clicked */
@@ -109,15 +110,10 @@ nav ul li a:visited {
     color: inherit; /* Inherit the color from the parent element */
 }
 
-/* MENU FONT */
-/* Styling for the menu text */
-
-
-/* Styling for hover effect on menu links */
 nav ul li a:hover {
-    color: rgb(201, 204, 12); /* Set the text color on hover (light gray) */
-    text-decoration: none; /* Remove underline from links */
+    color: rgb(86, 87, 0); /* Set the text color on hover (light gray) */
 }
+
 
 /* DROPDOWN MENU */
 /* Styling for the dropdown content */
